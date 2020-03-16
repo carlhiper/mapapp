@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TravelRecordApp.EditPostPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Entry x:Name="experienceEntry"></Entry>
+            <Button x:Name="editButton" Text="Change post" Clicked="editButton_Clicked"></Button>
+            <Button x:Name="deleteButton" Text="Delete post" Clicked="deleteButton_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
