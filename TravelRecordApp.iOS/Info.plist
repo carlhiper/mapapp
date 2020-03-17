@@ -34,7 +34,11 @@
 	<string>TravelRecordApp</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We need access to your location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>May we see your position?</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>May we see your calendar?</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>May we have access to you bluetooth?</string>
 </dict>
 </plist>

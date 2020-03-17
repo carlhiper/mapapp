@@ -6,6 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
              <maps:Map x:Name="locationsMap"
+                    
                        HorizontalOptions="FillAndExpand"
                        VerticalOptions="FillAndExpand"
                        MapType="Hybrid">
